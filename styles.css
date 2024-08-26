@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+    margin: auto;
+    background-color: darkgrey;
+    flex-wrap: wrap;
+    width: 80vw;
+    aspect-ratio: 1 / 1;
+}
+
+.child-div {
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    background-color: red;
+    border: 1px solid black;
+}
